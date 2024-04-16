@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "backupoo"
+version = "0.1.0"
+description = "这是阿里云OSS自动备份模块，用于实现本地文件定时同步到阿里云OSS。"
+authors = ["shan-shuqing <8898277+shan-shuqing@user.noreply.gitee.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+alibabacloud-credentials = "^0.3.2"
+alibabacloud-tea-console = "^0.0.1"
+
+[tool.poetry.group.dev.dependencies]
+oss2 = "^2.18.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
